@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(226, 223, 223);
+}
+#Buttons {
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 300px;
+}
+button {
+    height: 110px;
+    width: 110px;
+    border: none;
+}
+.blackMode {
+    background-color: rgb(44, 41, 41);
+}
+.grayMode {
+    background-color: gray;
+}
